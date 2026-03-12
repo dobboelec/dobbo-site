@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobbo Electrical & Spa Repairs | Queenstown Electrician</title>
+    <meta name="description" content="EWRB Registered Electrician providing professional residential repairs and spa pool servicing across the Queenstown region. Reliable, local service.">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <header class="bg-blue-900 text-white py-6 shadow-md">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold tracking-tight uppercase">DOBBO <span class="text-blue-400">ELECTRICAL</span></h1>
+                <p class="text-sm opacity-80">Queenstown Electrical & Spa Specialist</p>
+            </div>
+            <a href="#contact" class="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded font-bold transition">Book a Job</a>
+        </div>
+    </header>
+
+    <section class="py-16 bg-white border-b">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Quality Electrical & Spa Repairs in Queenstown</h2>
+            <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">Registered Electrician serving the whole Wakatipu Basin. Fast response for household faults and spa pool maintenance.</p>
+            <div class="flex justify-center gap-4">
+                <span class="bg-green-100 text-green-800 text-xs font-semibold px-3 py-1 rounded border border-green-400 flex items-center">
+                    <span class="mr-2">✔</span> EWRB Registered: E 005465
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4 grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                <h3 class="text-2xl font-bold text-blue-900 mb-4 flex items-center">
+                    <span class="mr-3 text-2xl">⚡</span> Residential Electrical
+                </h3>
+                <ul class="text-gray-700 space-y-3">
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">•</span> Fault finding & urgent repairs</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">•</span> Switchboard upgrades & safety checks</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">•</span> Lighting, power, & data installations</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">•</span> Renovation wiring & rental maintenance</li>
+                </ul>
+            </div>
+            <div class="bg-white p-8 rounded-lg shadow-sm border border-gray-200">
+                <h3 class="text-2xl font-bold text-blue-900 mb-4 flex items-center">
+                    <span class="mr-3 text-2xl">💧</span> Spa Pool Specialist
+                </h3>
+                <ul class="text-gray-700 space-y-3">
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">•</span> Heater, pump, & blower replacements</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">•</span> Control system troubleshooting (Balboa, Davey, etc.)</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">•</span> Leak detection & mechanical seal repairs</li>
+                    <li class="flex items-start"><span class="text-blue-500 mr-2">•</span> Winter servicing & pre-purchase checks</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4 max-w-lg">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl font-bold text-gray-900">Request a Service</h2>
+                <p class="text-gray-600 mt-2">Available for jobs across Queenstown and surrounding areas.</p>
+            </div>
+            
+            <form action="https://formsubmit.co/dobboelec@gmail.com" method="POST" class="space-y-4">
+                <input type="hidden" name="_subject" value="New Job Request - dobbo.nz">
+                <input type="text" name="_honey" style="display:none">
+                
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700">Full Name</label>
+                    <input type="text" name="name" required placeholder="Your Name" class="w-full mt-1 p-3 border rounded-md focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700">Phone Number</label>
+                    <input type="tel" name="phone" required placeholder="02x xxx xxxx" class="w-full mt-1 p-3 border rounded-md focus:ring-2 focus:ring-blue-500 outline-none">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700">Service Required</label>
+                    <textarea name="message" rows="4" required placeholder="Briefly describe the electrical or spa issue..." class="w-full mt-1 p-3 border rounded-md focus:ring-2 focus:ring-blue-500 outline-none"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-900 text-white font-bold py-4 rounded-md hover:bg-blue-800 transition shadow-lg text-lg">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-xl font-bold mb-1">Dobbo Electrical & Spa Repairs</p>
+            <p class="text-sm opacity-70 mb-6 italic">Servicing Queenstown, Frankton, & Arrowtown</p>
+            <div class="border-t border-gray-800 pt-8">
+                <p class="text-xs opacity-60 mb-2">EWRB Registered Electrician: <strong>E 005465</strong></p>
+                <p class="text-xs opacity-60 uppercase tracking-widest">&copy; 2026 Dobbo Electrical | dobbo.nz</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
